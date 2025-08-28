@@ -14,7 +14,7 @@ int main()
     int mes;
     cout << "Ingrese un numero del 1 al 12: " << endl;
     cin >> mes;
-
+// cada numero indica un mes del año
     if(mes >= 1 && mes <= 12){
         if(mes == 1){
             cout << " Enero " << endl;

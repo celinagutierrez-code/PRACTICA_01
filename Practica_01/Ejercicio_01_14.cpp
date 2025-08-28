@@ -16,7 +16,7 @@ int main ()
     cout << " Ingrese un numero: " << endl;
     cin >> N;
     cout << " El triangulo es: " << endl;
-    
+    //Formamos un triangulo con asteriscos
     for(int i = 1; i <= N; i++){
         for(int j = 0 ; j < i; j++){
             cout << "*";

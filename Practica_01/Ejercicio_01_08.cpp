@@ -16,7 +16,7 @@ int main()
     system("cls");
     cout << "ingrese un numero: ";
     cin >> numero;
-
+// usamos el numero % 2 para saber si es par o impar
     if (numero % 2 == 0)
     {
         cout << " el numero es par " << endl;

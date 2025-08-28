@@ -16,7 +16,7 @@
 
     float Kelvin = grados + 273.15;
     cout << "Los grados en Kelvin son: " << Kelvin << endl;
-
+// se usa float para que el resultado tebnga decimales
     return 0;
 
 }

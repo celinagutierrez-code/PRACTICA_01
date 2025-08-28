@@ -8,6 +8,7 @@
 #include <iostream>
 
 using namespace std;
+
 int main()
 {
     system("chcp 65001");
@@ -15,7 +16,7 @@ int main()
     cout << "Hola, soy estudiante de programacion." << endl;
     cout << "Celina Shandel Gutierrez Espinoza" << endl;
     cout << "Ingenieria Biomedica" << endl;
-
+// datos personales de la estudiante
     return 0;
     
 }

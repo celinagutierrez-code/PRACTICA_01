@@ -21,6 +21,6 @@ int main()
         cout << valor1 << " es tu valor1  " ;
         cout << " y tu valor2 es " << valor2;
     }
-
+// indica el primer valor que metes  y el segundo valor 
     return 0;
 }

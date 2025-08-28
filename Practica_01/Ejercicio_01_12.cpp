@@ -16,7 +16,7 @@ int main()
     system("cls");
     cout << "Ingrese un numero del 1 al 5:" << endl;
     cin >> numero;
-
+// usamos break porque si no lo usamos el codigo sigue ejecutandose,  el break solo lo usamos con switch
     switch (numero)
     {
             case 1:

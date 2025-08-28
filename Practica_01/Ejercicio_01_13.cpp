@@ -12,7 +12,7 @@ using namespace std;
 int main()
 {
     int N, suma = 0;
-
+// el programa va sumando los numeros continuamente para darnos el resultado
     cout << "Ingrese un numero N: ";
     cin >> N;
 

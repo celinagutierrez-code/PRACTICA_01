@@ -14,7 +14,7 @@ int main()
     char caracter;
     cout << "Ingrese un caracter: ";
     cin >> caracter;
-
+// ingresamos las vocales y consonantes para que el codigo los reconozca
     if ((caracter >= 'A' && caracter <= 'Z') || (caracter >=  'a' && caracter <= 'z')){
         if(caracter == 'A' || caracter == 'E' || caracter == 'I' || caracter == 'O' || caracter == 'U' || caracter == 'a' || caracter == 'e' || caracter == 'i'|| caracter == 'o' || caracter == 'u') 
            cout << " Es una vocal " << endl;

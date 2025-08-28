@@ -17,6 +17,7 @@ int main()
 
     cout << "Ingrese la cantidad de notas: ";
     cin >> N;
+    // el codigo va sumando las notas ingresadas para sacar el promedio
 
     for(int i = 1; i <= N; i++){
         cout << "Ingrese la nota " << i << ": ";

@@ -14,7 +14,7 @@ int main()
     int nota;
     cout << "Ingrese la nota del estudiante: " << endl;
     cin >> nota;
-
+//si la nota es > a 51 muestra directamente que el estudiante esta reprobado
     if(nota >= 51){
         if(nota < 60){
             cout << " Tiene la calificacion de C" << endl;

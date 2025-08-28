@@ -17,7 +17,7 @@ int main()
     cin >> base;
     cout << "ingrese la altura del triangulo: ";
     cin >> altura;
-    
+    // se pide la base y la altura del triangulo
     
     float area = (base * altura) / 2;
     cout << "el area del triangulo es: " << area << endl;

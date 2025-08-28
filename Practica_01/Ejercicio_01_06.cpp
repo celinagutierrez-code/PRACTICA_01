@@ -29,6 +29,7 @@ int main()
     else {
         cout << " el numero es cero " << endl;
       }
+      // si el numero no es ni positivo ni negativo nos muestra cero
 
  return 0;
         

@@ -15,7 +15,7 @@ int main()
     int edad = 0;
     cout << "ingrese su edad: ",
     cin >> edad;
-
+//con la edad determinamos si es niño, adolescente, mayor de edad o adulto mayor
     if (edad <= 12) {
         cout << " Usted es un niño" << endl;
   }

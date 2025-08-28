@@ -14,7 +14,7 @@ int main()
     int radio = 0;
     cout << "ingrese el radio de la esfera: ";
     cin >> radio;
-    
+    //se pide el radio para calcular el volumen de la esfera
     
     float volumen = (4/3.0) * 3.1416 * (radio * radio * radio);
     cout << " el volumen de la esfera es: " << volumen << endl;
