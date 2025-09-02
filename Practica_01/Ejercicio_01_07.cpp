@@ -6,26 +6,24 @@
 // Número de ejercicio: 7
 
 #include <iostream>
-
 using namespace std;
+
 int main()
 
 {
     char caracter;
-    cout << "Ingrese un caracter: ";
+    cout << "ingrese un caracter" << endl;
     cin >> caracter;
-// ingresamos las vocales y consonantes para que el codigo los reconozca
-    if ((caracter >= 'A' && caracter <= 'Z') || (caracter >=  'a' && caracter <= 'z')){
-        if(caracter == 'A' || caracter == 'E' || caracter == 'I' || caracter == 'O' || caracter == 'U' || caracter == 'a' || caracter == 'e' || caracter == 'i'|| caracter == 'o' || caracter == 'u') 
-           cout << " Es una vocal " << endl;
-        else {
-            cout << " Es una consonante " << endl;
+    if((caracter >= 'A' && caracter <= 'Z') || (caracter >= 'a' && caracter <= 'z')){
+        if(caracter == 'A' || caracter == 'E' || caracter == 'I' || caracter == 'O' || caracter == 'U' || caracter == 'a' || caracter == 'e' || caracter == 'i' || caracter == 'o' || caracter == 'u'){
+            cout << "Es una vocal" << endl;
+        } else {
+            cout << "Es consonante" << endl;
         }
-    }else {
-        cout << " Es un caracter especial " << endl;
-
+    } else if (caracter >= '0' && caracter <= '9'){
+        cout << "Es un numero" << endl;
+    } else {
+        cout << "Es un caracter especial" << endl;
+    }
+    return 0;
 }
-
-return 0;
-}
-

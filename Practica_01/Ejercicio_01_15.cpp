@@ -7,27 +7,25 @@
 
 
 #include <iostream>
-
 using namespace std;
 
 int main()
 {
-    int N;
-    float nota, suma = 0, promedio;
-
-    cout << "Ingrese la cantidad de notas: ";
-    cin >> N;
-    // el codigo va sumando las notas ingresadas para sacar el promedio
-
-    for(int i = 1; i <= N; i++){
-        cout << "Ingrese la nota " << i << ": ";
+    int n;
+    cout << "Ingrese la cantidad de notas" << endl;
+    cin >> n;
+    
+    double nota;
+    double suma = 0.0;
+    for(int i = 0; i < n; i++){ //(int i = 1; i <= n; i++)
+        cout << "Ingrese la nota " << i + 1 << endl;
         cin >> nota;
-        suma += nota;
+        suma = suma + nota;
     }
-
-    promedio = suma / N;
-
-    cout << "El promedio general es: " << promedio << endl;
+    
+    double promedio;
+    promedio = suma / n;
+    cout << "El promedio es: " << promedio << endl;
 
     return 0;
 }
