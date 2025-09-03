@@ -13,7 +13,7 @@ int main() {
     int N;
     cout << "Ingresa un numero: " << endl;
     cin >> N;
-
+//Valida si un numero es primo o no
     bool esPrimo = true;
 
     if (N < 2) {
