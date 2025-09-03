@@ -3,7 +3,7 @@
 // Carnet: 12645069 Or.
 // Carrera del estudiante: Ingeniería Biomedica
 // Fecha creación: 21/08/2025
-// Número de ejercicio: 22
+// Número de ejercicio: 23
 
 #include <iostream>
 
